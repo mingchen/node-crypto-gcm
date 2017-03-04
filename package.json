@@ -1,0 +1,22 @@
+{
+  "name": "node-crypto-gcm",
+  "version": "1.0.0",
+  "description": "A node crypto wrap for AES GCM",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "jshint && eslint .",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "node",
+    "crypto",
+    "aes",
+    "gcm"
+  ],
+  "author": "Ming Chen <ming_c@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "should": "^11.2.0"
+  }
+}

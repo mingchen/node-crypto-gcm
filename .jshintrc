@@ -1,0 +1,11 @@
+{
+    "node": true,   // node.js mode on
+    "esversion": 6, // enable ECMAScript 6 features
+    "undef": true,  // don't allow undefined variables
+    "eqnull": true, // allow == null which tests for null or undefined which is a good thing
+    "sub": true,    // allow [] notation as well as dot notation (eg person['name'] vs person.name)
+    "predef": [
+        "describe",
+        "it"
+    ]
+}
