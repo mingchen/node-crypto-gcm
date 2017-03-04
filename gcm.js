@@ -73,17 +73,17 @@ class GCM {
      * @returns {*} decrypted data, utf-8 encoded. or null if decrypt failed.
      */
     decrypt(encryptedData) {
-        var bData = new Buffer(GCM.urlsafe_unescape(encryptedData), 'base64');
+        var rawData = new Buffer(GCM.urlsafe_unescape(encryptedData), 'base64');
 
-        if (bData.length < 92) {
+        if (rawData.length < 92) {
             return null;
         }
 
         // convert data to buffers
-        let salt = bData.slice(0, 64);
-        let iv = bData.slice(64, 76);
-        let authTag = bData.slice(76, 92);
-        let data = bData.slice(92);
+        let salt = rawData.slice(0, this.saltLength);
+        let iv = rawData.slice(this.saltLength, this.saltLength + this.ivLength);
+        let authTag = rawData.slice(this.saltLength + this.ivLength, this.saltLength + this.ivLength + 16);
+        let data = rawData.slice(this.saltLength + this.ivLength + 16);
 
         try {
             let key = crypto.pbkdf2Sync(this.password, salt, this.pbkdf2Rounds, this.pbkdf2KeyLength, this.pbkdf2Digest);
