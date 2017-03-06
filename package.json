@@ -1,11 +1,16 @@
 {
   "name": "node-crypto-gcm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node crypto wrap for AES GCM",
   "main": "index.js",
   "scripts": {
     "pretest": "./node_modules/.bin/jshint && ./node_modules/.bin/eslint .",
     "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mingchen/node-crypto-gcm",
+    "bugs": "https://github.com/mingchen/node-crypto-gcm/issues"
   },
   "keywords": [
     "node",
