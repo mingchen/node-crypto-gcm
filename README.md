@@ -66,7 +66,7 @@ Checkout [test/gcm_test.js](test/gcm_test.js) for example usages.
          * it will be url safe base64 encoded as function return value.
          *
          * @param plainText  utf-8 encoded plain text.
-         * @returns {*} url safe base64 encoded encrypted text.
+         * @returns {string} url safe base64 encoded encrypted text.
          */
         encrypt(plainText)
 
