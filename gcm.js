@@ -44,7 +44,7 @@ class GCM {
      * it will be url safe base64 encoded as function return value.
      *
      * @param plainText  utf-8 encoded plain text.
-     * @returns {*} url safe base64 encoded encrypted text.
+     * @returns {string} url safe base64 encoded encrypted text.
      */
     encrypt(plainText) {
 
