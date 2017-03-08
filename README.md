@@ -79,6 +79,12 @@ Checkout [test/gcm_test.js](test/gcm_test.js) for example usages.
         decrypt(encryptedData)
     }
 
+
+## License
+
+MIT
+
+
 ## References
 
 * [nodejs crypto API](https://nodejs.org/api/crypto.html)
