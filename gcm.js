@@ -73,7 +73,7 @@ class GCM {
      * @returns {*} decrypted data, utf-8 encoded. or null if decrypt failed.
      */
     decrypt(encryptedData) {
-        var rawData = new Buffer(GCM.urlsafe_unescape(encryptedData), 'base64');
+        var rawData = Buffer.from(GCM.urlsafe_unescape(encryptedData), 'base64');
 
         if (rawData.length < 92) {
             return null;
