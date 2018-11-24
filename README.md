@@ -2,8 +2,9 @@ node-crypto-gcm
 ===============
 
 [![Build Status](https://travis-ci.org/mingchen/node-crypto-gcm.svg?branch=master)](https://travis-ci.org/mingchen/node-crypto-gcm)
+[![Greenkeeper badge](https://badges.greenkeeper.io/mingchen/node-crypto-gcm.svg)](https://greenkeeper.io/)
 
-[![NPM](https://nodei.co/npm/node-crypto-gcm.png?downloads=true)](https://nodei.co/npm/node-crypto-gcm/) [![Greenkeeper badge](https://badges.greenkeeper.io/mingchen/node-crypto-gcm.svg)](https://greenkeeper.io/)
+[![NPM](https://nodei.co/npm/node-crypto-gcm.png?downloads=true)](https://nodei.co/npm/node-crypto-gcm/)
 
 
 ## Introduction
