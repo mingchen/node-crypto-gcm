@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "A node crypto wrap for AES GCM",
   "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "pretest": "./node_modules/.bin/jshint && ./node_modules/.bin/eslint .",
     "test": "./node_modules/.bin/mocha"
