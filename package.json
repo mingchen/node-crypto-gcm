@@ -24,9 +24,9 @@
   "author": "Ming Chen <ming_c@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^6.0.0",
-    "jshint": "^2.9.6",
-    "mocha": "^6.2.0",
+    "eslint": "^6.6.0",
+    "jshint": "^2.10.3",
+    "mocha": "^6.2.2",
     "should": "^13.2.3"
   },
   "dependencies": {
