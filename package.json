@@ -29,7 +29,10 @@
     "mocha": "^7.0.1",
     "should": "^13.2.3"
   },
-  "dependencies": {
-    "bcryptjs": "^2.4.3"
-  }
+  "dependencies": {},
+  "files": [
+    "index.js",
+    "gcm.js",
+    "index.d.ts"
+  ]
 }
